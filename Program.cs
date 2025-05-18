@@ -27,3 +27,7 @@ for (int i = 0; i < altura; i++)
             Console.Write(" ");
     }
 }
+
+Console.Write("Digite qualquer tecla para finalizar o programa!");
+Console.ReadKey();
+Console.Clear();
