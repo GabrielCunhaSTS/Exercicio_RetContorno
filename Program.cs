@@ -1,7 +1,5 @@
 ﻿int largura, altura;
 
-Console.WriteLine("------ Bem-vindo(a) ao programa de RetContorno ------");
-
 Console.Write("Digite a largura de 1 a 10: ");
 
 while (!int.TryParse(Console.ReadLine(), out largura) || largura < 1 || largura > 10)
@@ -26,8 +24,5 @@ for (int i = 0; i < altura; i++)
         else
             Console.Write(" ");
     }
+    Console.WriteLine();
 }
-
-Console.Write("Digite qualquer tecla para finalizar o programa!");
-Console.ReadKey();
-Console.Clear();
